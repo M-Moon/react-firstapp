@@ -1,5 +1,5 @@
 import './App.css';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 const Person = (props) => { // functional components > class-based
   return (
@@ -16,6 +16,10 @@ const App = () => {
   const otherName = 'Billy';
 
   const [counter, setCounter] = useState(0); // array destructuring for state (HOOK!)
+
+  useEffect(() => {
+    setCounter(100);
+  }, []);
 
   return (
     <div className="App">
