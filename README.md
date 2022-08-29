@@ -19,4 +19,5 @@ You may also see any lint errors in the console.
 ## Functionality
 
 Using the searchbar, type in the name of the movie you would like to look for.
+
 Specific names will yield specific results, whereas a general search (such as 'Superman') will yield the top 10 movies found with that search term.
