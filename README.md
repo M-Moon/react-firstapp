@@ -2,7 +2,9 @@
 
 A Reactjs app that allows you to search for movies and view the top 10 results, including the movie's title, year of release, and imdb poster.
 
-The app works by accessing the 'OMDB' API through an API key.
+This was created following JavaScript Mastery's crash course (which can be found [here](https://www.youtube.com/watch?v=b9eMGE7QtTk&ab_channel=JavaScriptMastery)) and aims to improve upon it to learn more about Reactjs.
+
+The app works by accessing the 'OMDB' API through an API key and creating the webpage with React, using concepts such as hooks and state to get the job done.
 
 ## Localhost Usage
 
